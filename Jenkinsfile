@@ -10,7 +10,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/sejal/Documents/devops-software/apache-tomcat-9.0.85/bin/mvn install'
+			  sh '/home/sejal/Documents/devops-software/apache-maven-3.9.6/bin/mvn install'
 	                 }}
 		stage('Deployment'){
 		   steps {
